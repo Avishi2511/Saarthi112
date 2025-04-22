@@ -1,0 +1,32 @@
+{
+  "name": "presentation-help",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
+  },
+  "dependencies": {
+    "@google/generative-ai": "^0.24.0",
+    "@humeai/voice": "^0.1.8",
+    "@humeai/voice-react": "^0.1.8",
+    "framer-motion": "^12.4.1",
+    "lucide-react": "^0.475.0",
+    "next": "^14.2.28",
+    "react": "^18",
+    "react-dom": "^18",
+    "react-icons": "^5.2.1"
+  },
+  "devDependencies": {
+    "@types/node": "20.17.25",
+    "@types/react": "18.3.19",
+    "@types/react-dom": "^18",
+    "eslint": "^8",
+    "eslint-config-next": "14.2.4",
+    "postcss": "^8",
+    "tailwindcss": "^3.4.1",
+    "typescript": "5.8.2"
+  }
+}
